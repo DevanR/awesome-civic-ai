@@ -1,24 +1,20 @@
 # awesome-civic-ai
 
-> A strictly-curated list of AI tools for public-interest work — for developers who want to contribute and for journalists and researchers who want to use them.
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](./LICENSE)
 
-Every entry on this list either uses AI to power public-interest work, defends against AI-driven harms, or provides reusable agents and scaffolds for civic work. Generic civic-tech is out of scope — for that, see [awesome-civic-tech](https://github.com/topics/civic-tech).
+> A strictly-curated list of AI tools for public-interest work — election integrity, deepfake defense, government transparency, journalism, and civil-liberties defense.
 
-We reject most pull requests. That's the point. See [CONTRIBUTING.md](./CONTRIBUTING.md) before opening one.
+If you came here looking for a tool to help your newsroom, your research, your election-monitoring team, or your civil-society organization — **start with [Contents](#contents)**. Every entry below has been vetted by humans against a strict bar. There are only a handful, on purpose.
 
-## Legend
+---
 
-Each entry carries two tags.
+## Who this list is for
 
-**AI mode**
-- `[uses-ai]` — the tool uses AI as a core capability for public-interest work
-- `[ai-defense]` — the tool detects, defends against, or provides accountability for AI-driven harms
-- `[agent]` — a reusable agent, prompt library, or scaffold for civic work
+> **If you're a journalist, researcher, fact-checker, election worker, or civil-society staffer**, this list is for you. Jump to [Contents](#contents), then read [How to use this list](#how-to-use-this-list).
+>
+> **If you're a developer or maintainer who wants to contribute a project**, read [Contributing](#contributing) first. Most pull requests are rejected — that is the point.
 
-**Jurisdiction**
-- ISO country code (`[US]`, `[UK]`, `[BR]`, `[IN]`, etc.) — applicable primarily in one jurisdiction
-- `[global]` — works across jurisdictions
-- `[multi: US,EU]` — multiple specific jurisdictions
+---
 
 ## Contents
 
@@ -28,6 +24,36 @@ Each entry carries two tags.
 - [Journalism & source protection](#journalism--source-protection)
 - [Surveillance & civil-liberties defense](#surveillance--civil-liberties-defense)
 - [Civic AI agents & scaffolds](#civic-ai-agents--scaffolds)
+
+Generic civic-tech is out of scope — for that, see [awesome-civic-tech](https://github.com/topics/civic-tech).
+
+---
+
+## How to use this list
+
+Each entry is a link to the project's home page. From there, you'll usually find documentation, a demo, and a way to reach the team — most of the projects listed actively work with newsrooms, researchers, and civil-society partners.
+
+A few tips for non-technical readers:
+
+- **Start with the project's own site.** The links go to the project's primary home, not its GitHub repository, so you land somewhere designed to explain what the tool does and who runs it.
+- **Look for an "About," "Partners," or "Contact" page.** Most of these projects are run by nonprofits, journalism orgs, or research collectives that respond to outreach from newsrooms and civil-society groups.
+- **"Actively maintained" matters.** Before adopting a tool, check that the project has commits, releases, or blog posts within the last 6–12 months. If a project has gone quiet, it may not be safe to rely on for live work.
+- **You don't have to deploy it yourself.** Many listed tools offer hosted access, partner programs, or training for journalists and researchers — ask.
+
+---
+
+## How the tags work
+
+Each entry carries two tags: what kind of tool it is, and where it works.
+
+| Tag | What it means |
+| --- | --- |
+| `[uses-ai]` | The tool uses AI as a core capability for public-interest work. |
+| `[ai-defense]` | The tool detects, defends against, or provides accountability for AI-driven harms (e.g., deepfakes, wrongful facial-recognition matches). |
+| `[agent]` | A reusable agent, prompt library, or scaffold built for civic work. |
+| `[global]` | Works across jurisdictions. |
+| `[US]`, `[UK]`, `[BR]`, `[IN]`, ... | ISO country code — primarily applicable in one jurisdiction. |
+| `[multi: US,EU]` | Applicable in multiple specific jurisdictions. |
 
 ---
 
@@ -82,12 +108,14 @@ Reusable agents, prompt libraries, recipes, and scaffolds for civic work — the
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md). Read it before opening a PR.
+> **We reject most pull requests. That's the point.**
+>
+> This list is strictly curated. The bar is high because trust in this list depends on what we keep off it as much as what we add. If your project is borderline, expect a "no" — not a slight, just the gate doing its job.
+
+Before opening a PR, read [CONTRIBUTING.md](./CONTRIBUTING.md). It documents the gates, the categories, and the kind of evidence we look for (real users, active maintenance, public-interest fit, fit with one of the six sections above).
+
+For the editorial reasoning behind the framing and the strict gate, see [`CONTEXT.md`](./CONTEXT.md). Architectural decisions live in [`docs/adr/`](./docs/adr/).
 
 ## License
 
 Content is licensed under [CC BY-SA 4.0](./LICENSE). Linked projects retain their own licenses.
-
-## Why this list exists
-
-This repo collects AI tools that support public-interest work. The framing is deliberately neutral; the editorial filter is not. Maintainers' judgment is recorded in [`CONTEXT.md`](./CONTEXT.md) and the architectural decisions are in [`docs/adr/`](./docs/adr/).
