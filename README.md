@@ -43,7 +43,8 @@ Tools that support free and fair elections, voter education, ballot tracking, el
 
 Detection, watermarking, content credentials, deepfake forensics, and provenance tooling for verifying media authenticity.
 
-- [Content Authenticity Initiative / C2PA](https://contentauthenticity.org/) — open standard and tooling for cryptographic content provenance, signed at point of capture and edited media. `[ai-defense]` `[global]`
+- [c2pa-rs](https://github.com/contentauth/c2pa-rs) — Rust SDK for the C2PA content-provenance specification: creates, signs, embeds, and validates cryptographic content credentials, and is the reference implementation behind the Content Authenticity Initiative ecosystem. `[ai-defense]` `[global]`
+- [ProofMode](https://proofmode.org/) — Mobile chain-of-custody capture with a Verify tool that detects AI-generated content in images, audio, and video, maintained by Guardian Project and WITNESS and used by journalists and humanitarian documentarians. `[ai-defense]` `[global]`
 
 <!-- Seed entries pending maintainer review -->
 
