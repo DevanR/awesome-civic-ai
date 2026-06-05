@@ -35,7 +35,7 @@ Each entry carries two tags.
 
 Tools that support free and fair elections, voter education, ballot tracking, election observation, and claim verification during election cycles.
 
-- [Full Fact AI](https://fullfact.org/about/automated/) — automated claim detection and matching from political speech, used by fact-checkers during election cycles. `[uses-ai]` `[UK]` `[global]`
+- [Meedan Check](https://meedan.org/check) — collaborative media-verification platform with multilingual AI for analyzing claims across messaging apps and social media. Used by AFP, Rappler, Boom, India Today, and 100+ fact-checking partners across 34 languages. `[uses-ai]` `[global]`
 
 <!-- Seed entries pending maintainer review — propose additions via PR per CONTRIBUTING.md -->
 
