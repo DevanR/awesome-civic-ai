@@ -1,0 +1,34 @@
+name: Report a stale or disqualified entry
+description: An existing entry no longer meets the bar — archived, link rot, acquired, scope drift.
+title: "Stale: <existing entry name>"
+labels: ["stale-entry"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Existing entry
+      description: Name of the entry as it currently appears in the README.
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: What's wrong
+      options:
+        - Repository archived
+        - Link broken / project disappeared
+        - No meaningful commits in over 6 months
+        - License changed to non-open / source-available with restrictions
+        - Acquired by or pivoted to a vendor outside scope
+        - No longer demonstrably uses AI / no longer fits AI mode
+        - Scope drift (now serves surveillance / policing / institutional control)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to the archived repo, the dead URL, the acquisition announcement, the license diff, etc.
+    validations:
+      required: true

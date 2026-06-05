@@ -1,0 +1,92 @@
+name: Suggest an entry
+description: Pre-flight check before opening a PR. Use this if you're unsure your entry qualifies.
+title: "Suggest: <Project Name>"
+labels: ["entry-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this issue to surface a project for maintainer review before opening a PR. If the entry obviously qualifies and you've read CONTRIBUTING.md, you can skip this and open a PR directly.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Project URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Proposed section
+      options:
+        - Election integrity & voting
+        - Synthetic media & provenance
+        - Government transparency
+        - Journalism & source protection
+        - Surveillance & civil-liberties defense
+        - Civic AI agents & scaffolds
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-sentence description
+      description: This is what would appear in the README. One sentence. If you need two, tighten it.
+    validations:
+      required: true
+  - type: dropdown
+    id: ai_mode
+    attributes:
+      label: AI mode
+      options:
+        - uses-ai (AI is a core capability for public-interest work)
+        - ai-defense (detects, defends against, or audits AI-driven harms)
+        - agent (reusable agent, prompt library, or scaffold for civic work)
+    validations:
+      required: true
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      placeholder: "global, US, UK, BR, multi: US,EU, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: ai_evidence
+    attributes:
+      label: Evidence the AI gate is met
+      description: Point to the docs, code, or feature that demonstrates the AI capability. "We use AI" is not enough.
+    validations:
+      required: true
+  - type: textarea
+    id: users_evidence
+    attributes:
+      label: Evidence of real users / track record
+      description: Newsrooms using it, orgs deploying it, downloads, papers citing it. Weekend hacks with slick READMEs don't qualify.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: MIT, Apache-2.0, AGPL-3.0, etc.
+    validations:
+      required: true
+  - type: input
+    id: last_commit
+    attributes:
+      label: Date of most recent meaningful commit
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else maintainers should know
+      description: Borderline cases, conflict-of-interest disclosure, anything ambiguous.

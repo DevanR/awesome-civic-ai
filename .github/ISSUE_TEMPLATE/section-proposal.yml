@@ -1,0 +1,36 @@
+name: Section proposal
+description: Propose a new top-level section. New sections are rare.
+title: "Section proposal: <name>"
+labels: ["section-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New sections are rare. Don't be hurt if we decline — most proposed sections fit inside an existing one.
+  - type: input
+    id: section_name
+    attributes:
+      label: Proposed section name
+    validations:
+      required: true
+  - type: textarea
+    id: harm
+    attributes:
+      label: What harm or use-case does this section cover?
+      description: Be concrete. "AI ethics" is not concrete; "model audits and red-team tooling for public-sector deployments" is.
+    validations:
+      required: true
+  - type: textarea
+    id: why_not_existing
+    attributes:
+      label: Why don't the existing sections fit?
+      description: Walk through each of the 6 existing sections and explain why your entries wouldn't naturally land in any of them.
+    validations:
+      required: true
+  - type: textarea
+    id: seed_entries
+    attributes:
+      label: Three or more entries you'd add on day one
+      description: Each one should pass the strict inclusion gate in CONTRIBUTING.md. Include links.
+    validations:
+      required: true

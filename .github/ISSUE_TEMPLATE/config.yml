@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read CONTRIBUTING.md first
+    url: https://github.com/DevanR/awesome-civic-ai/blob/main/CONTRIBUTING.md
+    about: The list is strictly curated. Most submissions are rejected. Read this before opening an issue.
