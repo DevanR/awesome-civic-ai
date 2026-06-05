@@ -1,0 +1,90 @@
+# awesome-civic-ai
+
+> A strictly-curated list of AI tools for public-interest work — for developers who want to contribute and for journalists and researchers who want to use them.
+
+Every entry on this list either uses AI to power public-interest work, defends against AI-driven harms, or provides reusable agents and scaffolds for civic work. Generic civic-tech is out of scope — for that, see [awesome-civic-tech](https://github.com/topics/civic-tech).
+
+We reject most pull requests. That's the point. See [CONTRIBUTING.md](./CONTRIBUTING.md) before opening one.
+
+## Legend
+
+Each entry carries two tags.
+
+**AI mode**
+- `[uses-ai]` — the tool uses AI as a core capability for public-interest work
+- `[ai-defense]` — the tool detects, defends against, or provides accountability for AI-driven harms
+- `[agent]` — a reusable agent, prompt library, or scaffold for civic work
+
+**Jurisdiction**
+- ISO country code (`[US]`, `[UK]`, `[BR]`, `[IN]`, etc.) — applicable primarily in one jurisdiction
+- `[global]` — works across jurisdictions
+- `[multi: US,EU]` — multiple specific jurisdictions
+
+## Contents
+
+- [Election integrity & voting](#election-integrity--voting)
+- [Synthetic media & provenance](#synthetic-media--provenance)
+- [Government transparency](#government-transparency)
+- [Journalism & source protection](#journalism--source-protection)
+- [Surveillance & civil-liberties defense](#surveillance--civil-liberties-defense)
+- [Civic AI agents & scaffolds](#civic-ai-agents--scaffolds)
+
+---
+
+## Election integrity & voting
+
+Tools that support free and fair elections, voter education, ballot tracking, election observation, and claim verification during election cycles.
+
+- [Full Fact AI](https://fullfact.org/about/automated/) — automated claim detection and matching from political speech, used by fact-checkers during election cycles. `[uses-ai]` `[UK]` `[global]`
+
+<!-- Seed entries pending maintainer review — propose additions via PR per CONTRIBUTING.md -->
+
+## Synthetic media & provenance
+
+Detection, watermarking, content credentials, deepfake forensics, and provenance tooling for verifying media authenticity.
+
+- [Content Authenticity Initiative / C2PA](https://contentauthenticity.org/) — open standard and tooling for cryptographic content provenance, signed at point of capture and edited media. `[ai-defense]` `[global]`
+
+<!-- Seed entries pending maintainer review -->
+
+## Government transparency
+
+FOIA tooling, lobbying trackers, council-meeting transcription, public-records scrapers, budget analysis, and accountability infrastructure.
+
+- [Aleph (OCCRP)](https://docs.aleph.occrp.org/) — open-source investigative data platform with NLP-driven entity extraction, used by journalists worldwide to surface connections across leaked documents and public records. `[uses-ai]` `[global]`
+
+<!-- Seed entries pending maintainer review -->
+
+## Journalism & source protection
+
+Document review at scale, OSINT copilots, leak triage, source-protection tooling, and secure newsroom workflows.
+
+- [DocumentCloud](https://www.documentcloud.org/) — secure document hosting and analysis platform with AI-assisted OCR, entity extraction, and search. Used by newsrooms to publish and investigate primary sources. `[uses-ai]` `[global]`
+
+<!-- Seed entries pending maintainer review -->
+
+## Surveillance & civil-liberties defense
+
+Anti-spyware, secure comms, facial-recognition defenses, lawful-intercept transparency, dragnet detection, and tools that surface AI-driven civil-liberties harms.
+
+<!-- Seed entries pending maintainer review — strict AI-mode gate applies (uses-ai or ai-defense). Generic privacy tooling without AI is out of scope. -->
+
+## Civic AI agents & scaffolds
+
+Reusable agents, prompt libraries, recipes, and scaffolds for civic work — the "how to build" section.
+
+<!-- Seed entries pending maintainer review -->
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md). Read it before opening a PR.
+
+## License
+
+Content is licensed under [CC BY-SA 4.0](./LICENSE). Linked projects retain their own licenses.
+
+## Why this list exists
+
+This repo collects AI tools that support public-interest work. The framing is deliberately neutral; the editorial filter is not. Maintainers' judgment is recorded in [`CONTEXT.md`](./CONTEXT.md) and the architectural decisions are in [`docs/adr/`](./docs/adr/).
