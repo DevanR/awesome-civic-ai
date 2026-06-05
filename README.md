@@ -70,7 +70,7 @@ Document review at scale, OSINT copilots, leak triage, source-protection tooling
 
 Anti-spyware, secure comms, facial-recognition defenses, lawful-intercept transparency, dragnet detection, and tools that surface AI-driven civil-liberties harms.
 
-<!-- Seed entries pending maintainer review — strict AI-mode gate applies (uses-ai or ai-defense). Generic privacy tooling without AI is out of scope. -->
+- [AI Incident Database](https://incidentdatabase.ai/) — open catalog of real-world AI harms (wrongful arrests via facial recognition, biased automated decisions, deepfake impersonation), curated by the Responsible AI Collaborative and used by researchers, regulators, and journalists to track and prevent recurrence. `[ai-defense]` `[global]`
 
 ## Civic AI agents & scaffolds
 
