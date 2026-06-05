@@ -76,7 +76,7 @@ Anti-spyware, secure comms, facial-recognition defenses, lawful-intercept transp
 
 Reusable agents, prompt libraries, recipes, and scaffolds for civic work — the "how to build" section.
 
-<!-- Seed entries pending maintainer review -->
+> **Section open for submissions.** Nothing has met the strict gate as of June 2026. Generic agent frameworks (LangGraph, CrewAI, GPT Researcher) are out of scope — this section is for civic-purpose libraries: FOIA agents, council-meeting analyzers, public-records research scaffolds, source-protection assistants. See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ---
 
