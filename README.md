@@ -61,7 +61,8 @@ FOIA tooling, lobbying trackers, council-meeting transcription, public-records s
 
 Document review at scale, OSINT copilots, leak triage, source-protection tooling, and secure newsroom workflows.
 
-- [DocumentCloud](https://www.documentcloud.org/) — secure document hosting and analysis platform with AI-assisted OCR, entity extraction, and search. Used by newsrooms to publish and investigate primary sources. `[uses-ai]` `[global]`
+- [DocumentCloud](https://www.documentcloud.org/) — secure document hosting and analysis platform with AI-assisted OCR, named-entity extraction, and AI summarization across large document sets, used by 4,000+ newsrooms to publish and investigate primary sources. `[uses-ai]` `[global]`
+- [Presidio](https://github.com/microsoft/presidio) — open-source PII detection, redaction, and anonymization framework used by newsrooms to scrub leaked documents, chat logs, and transcripts before publication to protect sources. `[uses-ai]` `[global]`
 
 <!-- Seed entries pending maintainer review -->
 
