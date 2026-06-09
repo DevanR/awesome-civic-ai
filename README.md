@@ -78,7 +78,7 @@ Detection, watermarking, content credentials, deepfake forensics, and provenance
 
 FOIA tooling, lobbying trackers, council-meeting transcription, public-records scrapers, budget analysis, and accountability infrastructure.
 
-- [Aleph (OCCRP)](https://docs.aleph.occrp.org/) — open-source investigative data platform with NLP-driven entity extraction, used by journalists worldwide to surface connections across leaked documents and public records. `[uses-ai]` `[global]`
+- [Aleph (OCCRP)](https://aleph.occrp.org/) — open-source investigative data platform with NLP-driven entity extraction, used by journalists worldwide to surface connections across leaked documents and public records. `[uses-ai]` `[global]`
 - [OpenCouncil](https://github.com/schemalabz/opencouncil) — open-source platform that transcribes, summarizes, and makes searchable municipal council meetings using AI-generated speaker recognition and subject categorization, built by the Schema Labs democracy nonprofit. `[uses-ai]` `[global]`
 
 <!-- Seed entries pending maintainer review -->
