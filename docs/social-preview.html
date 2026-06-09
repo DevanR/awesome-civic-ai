@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>awesome-civic-ai — social preview</title>
+<style>
+  html, body { margin: 0; padding: 0; }
+  body {
+    width: 1280px;
+    height: 640px;
+    background: #0e1117;
+    color: #e6edf3;
+    font-family: "New York", "Iowan Old Style", Georgia, serif;
+    box-sizing: border-box;
+    padding: 76px 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  .eyebrow {
+    font-family: "SF Mono", Menlo, ui-monospace, monospace;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    color: #d29922;
+    text-transform: uppercase;
+  }
+  .title {
+    font-family: "SF Mono", Menlo, ui-monospace, monospace;
+    font-size: 96px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1;
+    margin: 26px 0 30px;
+    color: #f4ede1;
+  }
+  .tagline {
+    font-size: 31px;
+    line-height: 1.35;
+    color: #c9d1d9;
+    max-width: 1020px;
+  }
+  .footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .sections {
+    font-family: "SF Mono", Menlo, ui-monospace, monospace;
+    font-size: 14px;
+    color: #8b949e;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.7;
+    max-width: 720px;
+  }
+  .chips {
+    display: flex;
+    gap: 12px;
+    font-family: "SF Mono", Menlo, ui-monospace, monospace;
+    font-size: 17px;
+    color: #d29922;
+    flex-shrink: 0;
+  }
+  .chip {
+    border: 1px solid rgba(210, 153, 34, 0.45);
+    padding: 6px 14px;
+    border-radius: 4px;
+  }
+  .rule {
+    position: absolute;
+    left: 92px;
+    right: 92px;
+    bottom: 168px;
+    height: 1px;
+    background: rgba(230, 237, 243, 0.08);
+  }
+</style>
+</head>
+<body>
+  <div>
+    <div class="eyebrow">Strictly curated &middot; Most PRs rejected</div>
+    <div class="title">awesome-civic-ai</div>
+    <div class="tagline">AI tools for public-interest work &mdash; vetted by humans against a strict bar.</div>
+  </div>
+  <div class="rule"></div>
+  <div class="footer">
+    <div class="sections">
+      Elections &middot; Synthetic media &middot; Government transparency<br>
+      Journalism &middot; Surveillance defense &middot; Civic AI agents
+    </div>
+    <div class="chips">
+      <span class="chip">[uses-ai]</span>
+      <span class="chip">[ai-defense]</span>
+      <span class="chip">[agent]</span>
+    </div>
+  </div>
+</body>
+</html>
